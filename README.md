@@ -1,8 +1,6 @@
 ## Organization Charts
 Task
 
-Image processing
-
 1. Cut out the location of the organizational chart → Done
    
    ・Cutting header and edges
