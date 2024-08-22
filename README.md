@@ -1,18 +1,32 @@
 ## Organization Charts
+Task
 
-└── python
+Image processing
 
-    ├── img_processing
-    
-    │   ├── process.ipynb → apply all images.
-    
-    │   └── process_sample.ipynb → experiment for the image processing
-    
-    └── org_detection
-    
-        └── sample
-        
-            ├── sample.ipynb → sample code for the square detection
-            
-            └── youmei.png → sample image
+1. Cut out the location of the organizational chart → Done
+   
+・　Cutting header and edges
+
+・ Footer detection 
+
+・　Cutting Footer
+
+2. Firm code detection with OCR → Done
+
+・ Cutting header
+
+・ Pre-processing image and OCR
+
+・
+
+3. Measure the hierarchical structure of the chart → In progress
+
+・ ?
+
+4. Measure the complexity metrics of the chart → Done
+
+・ Calculating the entropy
+
+・ Reduction to the 3rd dimension
+
 
