@@ -22,5 +22,10 @@ Task
 
 4. Measure the hierarchical structure of the chart → In progress
 
-   ・?
+   ・Text detection
+   
+   ・Node detection
 
+   We have to use some deep learning models...
+
+   ・Junction point detection
