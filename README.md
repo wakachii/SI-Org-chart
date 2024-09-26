@@ -4,17 +4,19 @@ Task
 1. Cut out the location of the organizational chart → Done
    
    ・Cutting header and edges
-
+   
    ・Footer detection and cutting
 
-2. Firm code detection with OCR → Done
+   → Change to layout detection with pre-trained model
+
+3. Firm code detection with OCR → Done
    
    ・Cutting header
 
    ・Preprocessing image and OCR
 
 
-3. Measure the complexity metrics of the chart → Done
+4. Measure the complexity metrics of the chart → Done
 
    ・Calculating the entropy
    
