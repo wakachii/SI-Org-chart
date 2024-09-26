@@ -1,22 +1,18 @@
 ## Organization Charts
-Task
-
-1. Cut out the location of the organizational chart → Done
+Process
+1. Firm code detection with OCR → Done
    
-   ・Cutting header and edges
-   
-   ・Footer detection and cutting
+・Cutting header
 
-   → Change to layout detection with pre-trained model
+・Preprocessing image and OCR
 
-3. Firm code detection with OCR → Done
-   
-   ・Cutting header
+2. Cut out the organizational chart → Done
 
-   ・Preprocessing image and OCR
+・Layout detection with LayoutParser
 
+https://arxiv.org/abs/2103.15348
 
-4. Measure the complexity metrics of the chart → Done
+3. Measure the complexity metrics of the chart → Done
 
    ・Calculating the entropy
    
@@ -29,9 +25,9 @@ Task
 
 5. Measure the hierarchical structure of the chart → In progress
 
-   ・Text detection
-   
-    Perfect OCR is not possible because layouts are so diverse.
+   ・Department detection by using a Pre-trained deep-learning model (Fast R-CNN or Mask R-CNN)
+
+   ・Text detection from detected departments
    
    ・Node detection
 
