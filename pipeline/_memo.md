@@ -17,10 +17,7 @@ I use only the first page of the each firm.
 - Use a deep learning model to identify the coordinates of departments within the image.
 - output: image/coordination/coordination_code_year.csv
 
-## 4. Network Creation
+## 4. Network Creation and Hierarchy and Complexity Calculation
 - Create a network dataset based on distance metrics between the detected departments.
-- output: network/network_code_year.gexf
-
-## 6. Hierarchy and Complexity Calculation
 - Calculate hierarchical structures and their complexity based on the network data.
 - output: data/org_data.csv (firm_code, year, hierarchy, complexity)
